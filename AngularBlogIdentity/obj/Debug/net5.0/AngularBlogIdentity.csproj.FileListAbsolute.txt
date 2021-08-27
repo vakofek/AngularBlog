@@ -1,0 +1,5 @@
+C:\Users\vakof\OneDrive - Microsoft Corporation\Desktop\Angular\AngularBlog\AngularBlogIdentity\obj\Debug\net5.0\AngularBlogIdentity.csproj.AssemblyReference.cache
+C:\Users\vakof\OneDrive - Microsoft Corporation\Desktop\Angular\AngularBlog\AngularBlogIdentity\obj\Debug\net5.0\AngularBlogIdentity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vakof\OneDrive - Microsoft Corporation\Desktop\Angular\AngularBlog\AngularBlogIdentity\obj\Debug\net5.0\AngularBlogIdentity.AssemblyInfoInputs.cache
+C:\Users\vakof\OneDrive - Microsoft Corporation\Desktop\Angular\AngularBlog\AngularBlogIdentity\obj\Debug\net5.0\AngularBlogIdentity.AssemblyInfo.cs
+C:\Users\vakof\OneDrive - Microsoft Corporation\Desktop\Angular\AngularBlog\AngularBlogIdentity\obj\Debug\net5.0\AngularBlogIdentity.csproj.CoreCompileInputs.cache
