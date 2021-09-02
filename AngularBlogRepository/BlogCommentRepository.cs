@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace AngularBlogRepository
 {
-    class BlogCommentRepository : IBlogCommentRepository
+    public class BlogCommentRepository : IBlogCommentRepository
     {
         private readonly IConfiguration _config;
         public BlogCommentRepository(IConfiguration config)
@@ -84,7 +84,9 @@ namespace AngularBlogRepository
                 await connection.OpenAsync();
 
                 newBlogCommentId = await connection.ExecuteScalarAsync<int?>("BlogComment_Upsert",
-                    new { BlogComment = dataTable.AsTableValuedParameter("dbo.BlogCommentType")},
+                    new { BlogComment = dataTable.AsTableValuedParameter("dbo.BlogCommentType"),
+                    ApplicationUserId = applicationUserId
+                    },
                 commandType: CommandType.StoredProcedure);
             }
             newBlogCommentId = newBlogCommentId ?? blogCommentCreate.BlogCommentId;

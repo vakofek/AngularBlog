@@ -40,7 +40,7 @@ namespace AngularBlog.Controllers
             var photoCreate = new PhotoCreate
             {
                 PublicId = uploadResult.PublicId,
-                ImageUrl = uploadResult.SecureUri.AbsoluteUri,
+                ImageUrl = uploadResult.SecureUrl.AbsoluteUri,
                 Description = file.FileName
             };
 

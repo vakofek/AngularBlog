@@ -38,7 +38,7 @@ namespace AngularBlog
             services.AddScoped<IPhotoService, PhotoService>();
 
             services.AddScoped<IBlogRepository, BlogRepository>();
-            services.AddScoped<IBlogCommentRepository, IBlogCommentRepository>();
+            services.AddScoped<IBlogCommentRepository, BlogCommentRepository>();
             services.AddScoped<IAccountRepository, AccountRepository>();
             services.AddScoped<IPhotoRepository, PhotoRepository>();
 
